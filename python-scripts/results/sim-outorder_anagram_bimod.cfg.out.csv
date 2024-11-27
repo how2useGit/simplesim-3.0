@@ -1,0 +1,121 @@
+stat,value,comment,file_name
+sim_num_insn,25729060,total number of instructions committed,sim-outorder_anagram_bimod.cfg.out.txt
+sim_num_refs,9061656,total number of loads and stores committed,sim-outorder_anagram_bimod.cfg.out.txt
+sim_num_loads,6509986,total number of loads committed,sim-outorder_anagram_bimod.cfg.out.txt
+sim_num_stores,2551670.0000,total number of stores committed,sim-outorder_anagram_bimod.cfg.out.txt
+sim_num_branches,3809439,total number of branches committed,sim-outorder_anagram_bimod.cfg.out.txt
+sim_elapsed_time,9,total simulation time in seconds,sim-outorder_anagram_bimod.cfg.out.txt
+sim_inst_rate,2858784.4444,simulation speed (in insts/sec),sim-outorder_anagram_bimod.cfg.out.txt
+sim_total_insn,27150944,total number of instructions executed,sim-outorder_anagram_bimod.cfg.out.txt
+sim_total_refs,9506917,total number of loads and stores executed,sim-outorder_anagram_bimod.cfg.out.txt
+sim_total_loads,6816006,total number of loads executed,sim-outorder_anagram_bimod.cfg.out.txt
+sim_total_stores,2690911.0000,total number of stores executed,sim-outorder_anagram_bimod.cfg.out.txt
+sim_total_branches,4040179,total number of branches executed,sim-outorder_anagram_bimod.cfg.out.txt
+sim_cycle,11781809,total simulation time in cycles,sim-outorder_anagram_bimod.cfg.out.txt
+sim_IPC,2.1838,instructions per cycle,sim-outorder_anagram_bimod.cfg.out.txt
+sim_CPI,0.4579,cycles per instruction,sim-outorder_anagram_bimod.cfg.out.txt
+sim_exec_BW,2.3045,total instructions (mis-spec + committed) per cycle,sim-outorder_anagram_bimod.cfg.out.txt
+sim_IPB,6.7540,instruction per branch,sim-outorder_anagram_bimod.cfg.out.txt
+IFQ_count,41933585,cumulative IFQ occupancy,sim-outorder_anagram_bimod.cfg.out.txt
+IFQ_fcount,9467230,cumulative IFQ full count,sim-outorder_anagram_bimod.cfg.out.txt
+ifq_occupancy,3.5592,avg IFQ occupancy (insn's),sim-outorder_anagram_bimod.cfg.out.txt
+ifq_rate,2.3045,avg IFQ dispatch rate (insn/cycle),sim-outorder_anagram_bimod.cfg.out.txt
+ifq_latency,1.5445,avg IFQ occupant latency (cycle's),sim-outorder_anagram_bimod.cfg.out.txt
+ifq_full,0.8035,fraction of time (cycle's) IFQ was full,sim-outorder_anagram_bimod.cfg.out.txt
+RUU_count,160937933,cumulative RUU occupancy,sim-outorder_anagram_bimod.cfg.out.txt
+RUU_fcount,6909651,cumulative RUU full count,sim-outorder_anagram_bimod.cfg.out.txt
+ruu_occupancy,13.6599,avg RUU occupancy (insn's),sim-outorder_anagram_bimod.cfg.out.txt
+ruu_rate,2.3045,avg RUU dispatch rate (insn/cycle),sim-outorder_anagram_bimod.cfg.out.txt
+ruu_latency,5.9275,avg RUU occupant latency (cycle's),sim-outorder_anagram_bimod.cfg.out.txt
+ruu_full,0.5865,fraction of time (cycle's) RUU was full,sim-outorder_anagram_bimod.cfg.out.txt
+LSQ_count,54618295,cumulative LSQ occupancy,sim-outorder_anagram_bimod.cfg.out.txt
+LSQ_fcount,1203233,cumulative LSQ full count,sim-outorder_anagram_bimod.cfg.out.txt
+lsq_occupancy,4.6358,avg LSQ occupancy (insn's),sim-outorder_anagram_bimod.cfg.out.txt
+lsq_rate,2.3045,avg LSQ dispatch rate (insn/cycle),sim-outorder_anagram_bimod.cfg.out.txt
+lsq_latency,2.0117,avg LSQ occupant latency (cycle's),sim-outorder_anagram_bimod.cfg.out.txt
+lsq_full,0.1021,fraction of time (cycle's) LSQ was full,sim-outorder_anagram_bimod.cfg.out.txt
+sim_slip,245834021,total number of slip cycles,sim-outorder_anagram_bimod.cfg.out.txt
+avg_sim_slip,9.5547,the average slip between issue and retirement,sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.lookups,4137643,total number of bpred lookups,sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.updates,3809439,total number of updates,sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.addr_hits,3660260,total number of address-predicted hits,sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.dir_hits,3660825,total number of direction-predicted hits (includes addr-hits),sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.misses,148614,total number of misses,sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.jr_hits,329020,total number of address-predicted hits for JR's,sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.jr_seen,329260,total number of JR's seen,sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.jr_non_ras_hits.PP,6286,total number of address-predicted hits for non-RAS JR's,sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.jr_non_ras_seen.PP,6328,total number of non-RAS JR's seen,sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.bpred_addr_rate,0.9608,"branch address-prediction rate (i.e., addr-hits/updates)",sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.bpred_dir_rate,0.9610,"branch direction-prediction rate (i.e., all-hits/updates)",sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.bpred_jr_rate,0.9993,"JR address-prediction rate (i.e., JR addr-hits/JRs seen)",sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.bpred_jr_non_ras_rate.PP,0.9934,"non-RAS JR addr-pred rate (ie, non-RAS JR hits/JRs seen)",sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.retstack_pushes,341568,total number of address pushed onto ret-addr stack,sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.retstack_pops,325229,total number of address popped off of ret-addr stack,sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.used_ras.PP,322932,total number of RAS predictions used,sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.ras_hits.PP,322734,total number of RAS hits,sim-outorder_anagram_bimod.cfg.out.txt
+bpred_bimod.ras_rate.PP,0.9994,"RAS prediction rate (i.e., RAS hits/used RAS)",sim-outorder_anagram_bimod.cfg.out.txt
+il1.accesses,27701864,total number of accesses,sim-outorder_anagram_bimod.cfg.out.txt
+il1.hits,27679055,total number of hits,sim-outorder_anagram_bimod.cfg.out.txt
+il1.misses,22809,total number of misses,sim-outorder_anagram_bimod.cfg.out.txt
+il1.replacements,22334,total number of replacements,sim-outorder_anagram_bimod.cfg.out.txt
+il1.writebacks,0,total number of writebacks,sim-outorder_anagram_bimod.cfg.out.txt
+il1.invalidations,0,total number of invalidations,sim-outorder_anagram_bimod.cfg.out.txt
+il1.miss_rate,0.0008,"miss rate (i.e., misses/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+il1.repl_rate,0.0008,"replacement rate (i.e., repls/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+il1.wb_rate,0.0000,"writeback rate (i.e., wrbks/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+il1.inv_rate,0.0000,"invalidation rate (i.e., invs/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+dl1.accesses,9096854,total number of accesses,sim-outorder_anagram_bimod.cfg.out.txt
+dl1.hits,9054386,total number of hits,sim-outorder_anagram_bimod.cfg.out.txt
+dl1.misses,42468,total number of misses,sim-outorder_anagram_bimod.cfg.out.txt
+dl1.replacements,41956,total number of replacements,sim-outorder_anagram_bimod.cfg.out.txt
+dl1.writebacks,10544,total number of writebacks,sim-outorder_anagram_bimod.cfg.out.txt
+dl1.invalidations,0,total number of invalidations,sim-outorder_anagram_bimod.cfg.out.txt
+dl1.miss_rate,0.0047,"miss rate (i.e., misses/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+dl1.repl_rate,0.0046,"replacement rate (i.e., repls/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+dl1.wb_rate,0.0012,"writeback rate (i.e., wrbks/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+dl1.inv_rate,0.0000,"invalidation rate (i.e., invs/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+ul2.accesses,75821,total number of accesses,sim-outorder_anagram_bimod.cfg.out.txt
+ul2.hits,66433,total number of hits,sim-outorder_anagram_bimod.cfg.out.txt
+ul2.misses,9388,total number of misses,sim-outorder_anagram_bimod.cfg.out.txt
+ul2.replacements,5315,total number of replacements,sim-outorder_anagram_bimod.cfg.out.txt
+ul2.writebacks,2439,total number of writebacks,sim-outorder_anagram_bimod.cfg.out.txt
+ul2.invalidations,0,total number of invalidations,sim-outorder_anagram_bimod.cfg.out.txt
+ul2.miss_rate,0.1238,"miss rate (i.e., misses/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+ul2.repl_rate,0.0701,"replacement rate (i.e., repls/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+ul2.wb_rate,0.0322,"writeback rate (i.e., wrbks/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+ul2.inv_rate,0.0000,"invalidation rate (i.e., invs/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+itlb.accesses,27701864,total number of accesses,sim-outorder_anagram_bimod.cfg.out.txt
+itlb.hits,27701844,total number of hits,sim-outorder_anagram_bimod.cfg.out.txt
+itlb.misses,20,total number of misses,sim-outorder_anagram_bimod.cfg.out.txt
+itlb.replacements,0,total number of replacements,sim-outorder_anagram_bimod.cfg.out.txt
+itlb.writebacks,0,total number of writebacks,sim-outorder_anagram_bimod.cfg.out.txt
+itlb.invalidations,0,total number of invalidations,sim-outorder_anagram_bimod.cfg.out.txt
+itlb.miss_rate,0.0000,"miss rate (i.e., misses/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+itlb.repl_rate,0.0000,"replacement rate (i.e., repls/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+itlb.wb_rate,0.0000,"writeback rate (i.e., wrbks/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+itlb.inv_rate,0.0000,"invalidation rate (i.e., invs/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+dtlb.accesses,9130319,total number of accesses,sim-outorder_anagram_bimod.cfg.out.txt
+dtlb.hits,9130236,total number of hits,sim-outorder_anagram_bimod.cfg.out.txt
+dtlb.misses,83,total number of misses,sim-outorder_anagram_bimod.cfg.out.txt
+dtlb.replacements,0,total number of replacements,sim-outorder_anagram_bimod.cfg.out.txt
+dtlb.writebacks,0,total number of writebacks,sim-outorder_anagram_bimod.cfg.out.txt
+dtlb.invalidations,0,total number of invalidations,sim-outorder_anagram_bimod.cfg.out.txt
+dtlb.miss_rate,0.0000,"miss rate (i.e., misses/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+dtlb.repl_rate,0.0000,"replacement rate (i.e., repls/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+dtlb.wb_rate,0.0000,"writeback rate (i.e., wrbks/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+dtlb.inv_rate,0.0000,"invalidation rate (i.e., invs/ref)",sim-outorder_anagram_bimod.cfg.out.txt
+sim_invalid_addrs,0,total non-speculative bogus addresses seen (debug var),sim-outorder_anagram_bimod.cfg.out.txt
+ld_text_base,0x0120000000,program text (code) segment base,sim-outorder_anagram_bimod.cfg.out.txt
+ld_text_size,106496,program text (code) size in bytes,sim-outorder_anagram_bimod.cfg.out.txt
+ld_data_base,0x0140000000,program initialized data segment base,sim-outorder_anagram_bimod.cfg.out.txt
+ld_data_size,71264,program init'ed `.data' and uninit'ed `.bss' size in bytes,sim-outorder_anagram_bimod.cfg.out.txt
+ld_stack_base,0x011ff9b000,program stack segment base (highest address in stack),sim-outorder_anagram_bimod.cfg.out.txt
+ld_stack_size,16384,program initial stack size,sim-outorder_anagram_bimod.cfg.out.txt
+ld_prog_entry,0x01200059c0,program entry point (initial PC),sim-outorder_anagram_bimod.cfg.out.txt
+ld_environ_base,0x011ff97000,program environment base address address,sim-outorder_anagram_bimod.cfg.out.txt
+ld_target_big_endian,0,"target executable endian-ness, non-zero if big endian",sim-outorder_anagram_bimod.cfg.out.txt
+mem.page_count,54,total number of pages allocated,sim-outorder_anagram_bimod.cfg.out.txt
+mem.page_mem,432k,total size of memory pages allocated,sim-outorder_anagram_bimod.cfg.out.txt
+mem.ptab_misses,456696,total first level page table misses,sim-outorder_anagram_bimod.cfg.out.txt
+mem.ptab_accesses,190763862,total page table accesses,sim-outorder_anagram_bimod.cfg.out.txt
+mem.ptab_miss_rate,0.0024,first level page table miss rate,sim-outorder_anagram_bimod.cfg.out.txt
