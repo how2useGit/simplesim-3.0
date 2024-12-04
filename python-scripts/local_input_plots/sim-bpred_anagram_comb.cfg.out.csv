@@ -1,0 +1,27 @@
+stat,value,comment,file_name
+sim_num_insn,7826,total number of instructions executed,sim-bpred_anagram_comb_1024.cfg.out.txt
+sim_num_refs,4134,total number of loads and stores executed,sim-bpred_anagram_comb_1024.cfg.out.txt
+sim_elapsed_time,1,total simulation time in seconds,sim-bpred_anagram_comb_1024.cfg.out.txt
+sim_inst_rate,7826.0000,simulation speed (in insts/sec),sim-bpred_anagram_comb_1024.cfg.out.txt
+sim_num_branches,1103,total number of branches executed,sim-bpred_anagram_comb_1024.cfg.out.txt
+sim_IPB,7.0952,instruction per branch,sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.lookups,1103,total number of bpred lookups,sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.updates,1103,total number of updates,sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.addr_hits,807,total number of address-predicted hits,sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.dir_hits,918,total number of direction-predicted hits (includes addr-hits),sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.used_bimod,705,total number of bimodal predictions used,sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.used_2lev,214,total number of 2-level predictions used,sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.misses,185,total number of misses,sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.jr_hits,73,total number of address-predicted hits for JR's,sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.jr_seen,75,total number of JR's seen,sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.jr_non_ras_hits.PP,0,total number of address-predicted hits for non-RAS JR's,sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.jr_non_ras_seen.PP,1,total number of non-RAS JR's seen,sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.bpred_addr_rate,0.7316,"branch address-prediction rate (i.e., addr-hits/updates)",sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.bpred_dir_rate,0.8323,"branch direction-prediction rate (i.e., all-hits/updates)",sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.bpred_jr_rate,0.9733,"JR address-prediction rate (i.e., JR addr-hits/JRs seen)",sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.bpred_jr_non_ras_rate.PP,0.0000,"non-RAS JR addr-pred rate (ie, non-RAS JR hits/JRs seen)",sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.retstack_pushes,78,total number of address pushed onto ret-addr stack,sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.retstack_pops,74,total number of address popped off of ret-addr stack,sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.used_ras.PP,74,total number of RAS predictions used,sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.ras_hits.PP,73,total number of RAS hits,sim-bpred_anagram_comb_1024.cfg.out.txt
+bpred_comb.ras_rate.PP,0.9865,"RAS prediction rate (i.e., RAS hits/used RAS)",sim-bpred_anagram_comb_1024.cfg.out.txt

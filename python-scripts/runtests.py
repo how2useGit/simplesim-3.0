@@ -10,13 +10,13 @@ from utils import parse_simulation_stats
 simulators = ["../sim-bpred"]
 
 # Path to the tests
-tests_dir = "../tests/eio"
+tests_dir = "../tests-pisa/bin.little"
 
 # path to test configs
 test_configs = "configs"
 
 # path to save the results
-results_dir = "results"
+results_dir = "local_results"
 
 # create a results directory
 if not os.path.exists(results_dir):
@@ -40,7 +40,7 @@ for simulator in simulators:
                 "-config",
                 test_configs + "/" + config,
                 "-redir:sim",
-                "results/"
+                results_dir + "/"
                 + simulator_name
                 + "_"
                 + test_name
