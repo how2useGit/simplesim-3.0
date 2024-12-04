@@ -1,0 +1,25 @@
+stat,value,comment,file_name
+sim_num_insn,1813954,total number of instructions executed,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+sim_num_refs,516948,total number of loads and stores executed,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+sim_elapsed_time,1,total simulation time in seconds,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+sim_inst_rate,1813954.0000,simulation speed (in insts/sec),sim-bpred_test-printf_2lev_xor.cfg.out.txt
+sim_num_branches,401632,total number of branches executed,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+sim_IPB,4.5165,instruction per branch,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.lookups,401632,total number of bpred lookups,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.updates,401632,total number of updates,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.addr_hits,372708,total number of address-predicted hits,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.dir_hits,375017,total number of direction-predicted hits (includes addr-hits),sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.misses,26615,total number of misses,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.jr_hits,30154,total number of address-predicted hits for JR's,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.jr_seen,32000,total number of JR's seen,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.jr_non_ras_hits.PP,363,total number of address-predicted hits for non-RAS JR's,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.jr_non_ras_seen.PP,2198,total number of non-RAS JR's seen,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.bpred_addr_rate,0.9280,"branch address-prediction rate (i.e., addr-hits/updates)",sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.bpred_dir_rate,0.9337,"branch direction-prediction rate (i.e., all-hits/updates)",sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.bpred_jr_rate,0.9423,"JR address-prediction rate (i.e., JR addr-hits/JRs seen)",sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.bpred_jr_non_ras_rate.PP,0.1652,"non-RAS JR addr-pred rate (ie, non-RAS JR hits/JRs seen)",sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.retstack_pushes,29804,total number of address pushed onto ret-addr stack,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.retstack_pops,29802,total number of address popped off of ret-addr stack,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.used_ras.PP,29802,total number of RAS predictions used,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.ras_hits.PP,29791,total number of RAS hits,sim-bpred_test-printf_2lev_xor.cfg.out.txt
+bpred_2lev.ras_rate.PP,0.9996,"RAS prediction rate (i.e., RAS hits/used RAS)",sim-bpred_test-printf_2lev_xor.cfg.out.txt

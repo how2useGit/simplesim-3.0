@@ -102,19 +102,19 @@ def makeGraph(ax, metric, method, benchmark, data):
                 align="edge",
                 color=colorSelection,
             )
-            ax.bar_label(rects, padding=3)
-            ax.legend(rects, graphlabels)
-        multiplier += 6
+            ax.legend(rects, graphlabels, loc = "center right", bbox_to_anchor=(1.1, 0.5))
+        multiplier += 12
     ax.set_title(metric)
-    ax.set_xticks(np.arange(0, len(method) * len(benchmark), len(benchmark)), method)
+    ax.set_xticks(np.arange(3, 63, step=12), method)
     pprint.pprint(group)
 
 
 if __name__ == "__main__":
-    allBenchMarks = getAllBenchMarks("results")
+    allBenchMarks = getAllBenchMarks("local_input_plots")
     methods, benchmarks, metrics, all_result = ToMetricBenchMarkMethod(allBenchMarks)
     for tric in metrics:
-        fig, ax = plt.subplots(layout="constrained")
+        fig, ax = plt.subplots()
         makeGraph(ax, tric, methods, benchmarks, all_result)
         plt.show()
-        break
+        save_name = "local_plots/" + tric + ".jpg"
+        plt.savefig(save_name)
